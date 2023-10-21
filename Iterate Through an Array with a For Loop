@@ -1,0 +1,15 @@
+// Setup
+const myArr = [2, 3, 4, 5, 6];
+
+// Only change code below this line
+let total = 0;
+for (let i = 0; i < myArr.length; i++) {
+  total += myArr[i];
+}
+
+// This is explanation
+total + myArr[0] -> 0 + 2 = 2 
+total + myArr[1] -> 2 + 3 = 5
+total + myArr[2] -> 5 + 4 = 9
+total + myArr[3] -> 9 + 5 = 14 
+total + myArr[4] -> 14 + 6 = 20
