@@ -1,0 +1,9 @@
+// Example
+var sum = 8;
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive() {
+  sum += 5;
+}
